@@ -14,7 +14,12 @@ public class Chapter05 {
 		array1[3] = 01;
 		array1[4] = 14;
 		int int1 = array1[3];
-		
+
+        /* 模範解答(配列を横並びで指定し、変数への格納も最小限)
+        int[] array = { 0, 10, 20, 30, 40 };
+        System.out.println(array[3]);
+        */
+
 		System.out.println(long1);
 		System.out.println(double1);
 		System.out.println(boolean1);

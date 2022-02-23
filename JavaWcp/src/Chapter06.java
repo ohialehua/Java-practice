@@ -16,12 +16,12 @@ public class Chapter06 {
 		
 	  //インクリメントの順序による違い
 		val = 3;
-		int a = ++val;
+		int a = ++val; //valにインクリメントされてからaに代入される
 		System.out.println(a);
 		System.out.println(val);
 		
 		val = 3;
-		int b = val++;
+		int b = val++; //valがbに代入されてからインクリメントされるためbの値は3
 		System.out.println(b);
 		System.out.println(val);
 	}

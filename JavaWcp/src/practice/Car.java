@@ -5,7 +5,6 @@ public class Car {
     private double fuelCost;
     // 残量（L）
     private double fuelAmount;
-    public int move;
 
     // コンストラクタを作成
     public Car(double fuelCost, double fuelAmount) {

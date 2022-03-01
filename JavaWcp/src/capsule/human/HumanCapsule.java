@@ -9,15 +9,25 @@ public class HumanCapsule {
         this.name = name;
         this.age = age;
     }
-
+ // getterメソッド
     public String getName() {
         return this.name;
     }
-
+    /*
+     public 戻り値の型(フィールドの型)  getフィールド名() {
+        return this.フィールド名
+    }
+    */
+ // setterメソッド
     public void setName(String name) {
         this.name = name;
     }
-
+    /*
+     public void setフィールド名(フィールドの型の引数) {
+        this.フィールド名 = フィールドの型の引数;
+     }
+    */
+ // getterメソッド
     public int getAge() {
         return this.age;
     }

@@ -18,9 +18,11 @@ public class Extend01 {
       //Employeeクラスのインスタンスを生成して、アップキャストでHumanクラスの変数に代入
         Human human = new Employee("田中", 28, "システム部");
         System.out.println("Humanクラスのメソッド：名前は、" + human.getName());
-      //Humanクラスには、getEmployeeProfileメソッドがないのでアクセスするとコンパイルエラー
-      //System.out.println("Employeeクラスのメソッド：" + human.getEmployeeProfile());
-      //Employeeクラスの変数にダウンキャスト
+      /*
+        Humanクラスには、getEmployeeProfileメソッドがないのでアクセスするとコンパイルエラー
+        System.out.println("Employeeクラスのメソッド：" + human.getEmployeeProfile());
+        Employeeクラスの変数にダウンキャスト
+      */
         Employee tanaka = (Employee) human;
       //Employeeクラスの変数なので、Employeeクラスに追加したgetEmployeeProfileメソッドの呼び出しができる
         System.out.println("Employeeクラスのメソッド：プロフィールを紹介します。" + tanaka.getEmployeeProfile());

@@ -3,6 +3,7 @@ package extend.human;
 public class Human {
 
 	private String name;
+  //protectedはサブクラスからもアクセス可能
     protected int age;
 
     public Human(String name, int age) {

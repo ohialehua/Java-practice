@@ -9,11 +9,11 @@ public class Polymorphism01 {
      //　Studentクラスのインスタンスを生成して、Humanクラスの変数に代入
         Human human1 = new Student("佐藤", 17, 70);
      // オーバーライドしているので、Studentクラスのメソッドが実行される
-        System.out.println("Humanクラスのメソッド：プロフィールを紹介します。" + human1.getProfile());
+        System.out.println("Humanクラスのメソッド：プロフィールを紹介します。名前は" + human1.getName() + "で" + human1.getProfile());
 
      //　Employeeクラスのインスタンスを生成して、Humanクラスの変数に代入
         Human human2 = new Employee("田中", 28, "システム部");
      // オーバーライドしているので、Employeeクラスのメソッドが実行される
-        System.out.println("Humanクラスのメソッド：プロフィールを紹介します。" + human2.getProfile());
+        System.out.println("Humanクラスのメソッド：プロフィールを紹介します。名前は" + human1.getName() + "で"  + human2.getProfile());
     }
 }
